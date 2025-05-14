@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta, timezone
 from typing import Annotated, Union
+from pydantic import BaseModel
 import hashlib
 import jwt
 
